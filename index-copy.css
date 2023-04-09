@@ -1,0 +1,133 @@
+h1{
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+h2{
+  text-decoration-line: underline; 
+}
+
+.block{
+  width: 80vw;
+  height: 90vh;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  padding: 40px 40px 0 40px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-top: 5px solid;
+  border-right : 5px solid;
+  border-bottom: 5px dotted;
+  border-left: 5px dotted;
+  overflow: hidden;
+}
+
+.Section{
+  position: relative;
+}
+
+.Picture{
+  width: 13.5%;
+  height: 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 20px;
+  top: -60px;
+  background-position: bottom;
+  }
+
+.Charlotte{
+  background-image: url(charlotte.jpeg);
+  border: 5px solid rgb(11, 11, 90);
+}
+
+.Tiramisu {
+  background-image: url(tiramisu.jpg);
+  border: 5px solid grey;
+}
+
+.Cookies {
+  background-image: url(cookies.jpeg);
+  border: 5px solid green;
+}
+
+.ChApple{
+  background-color: rgba(110, 151, 228, 0.445);
+  border-color: rgb(11, 11, 90);
+  }
+
+.CookiesTiramisu{
+    background-color: rgba(67, 76, 92, 0.24);
+    border-color: grey;
+  }
+
+.ImbCookies{
+    background-color: rgb(196, 236, 196);
+    border-color: green;
+  }
+
+.Li1 li:nth-child(2n){
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    color: rgb(11, 11, 90);
+}
+
+.Li2 li:nth-child(2n+1){
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  color: rgb(85, 84, 84);
+}
+
+.Li3 li:nth-child(3n){
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  color: green;
+}
+
+.comment{
+  text-align: center;
+  text-decoration-line: overline;
+}
+
+.Info:first-letter{
+  font-size: 230%; 
+}
+
+.First:first-letter{
+  color:rgb(11, 11, 90);
+}
+
+.Second:first-letter{
+  color:rgb(85, 84, 84);
+}
+
+.Third:first-letter{ 
+  color:green;
+}
+
+.One h2{
+  color: rgb(11, 11, 90);
+}
+
+.Two h2{
+  color:  rgb(85, 84, 84);
+}
+
+.Three h2{
+  color:  green;
+}
+
+.One h3{
+  color: rgb(11, 11, 90);
+}
+
+.Two h3{
+    color: rgb(85, 84, 84);
+  }
+
+.Three h3{
+  color:  green;
+}
+
